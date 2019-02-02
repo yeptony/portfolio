@@ -1,6 +1,6 @@
-# Webpack 4 starter
+# Portfolio
 
-A boilerplate to start my web dev project.
+Yeptony's portfolio.
 
 ## Installation
 

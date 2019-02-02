@@ -1,7 +1,7 @@
 {
-  "name": "webpack-starter",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "A webpack starter built",
+  "description": "Yeptony's portfolio",
   "main": "index.js",
   "author": "yeptony",
   "license": "MIT",

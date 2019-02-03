@@ -1,0 +1,45 @@
+.terminal-container {
+  background-color: black;
+  background-image: radial-gradient(
+    rgba(0, 150, 0, 0.75), black 120%
+  );
+  height: 80vh;
+  width: 80%;
+  padding-left: 32px;
+  padding-right: 16px;
+  padding-top: 16px;
+  margin: 32px auto;
+  border-radius: 16px;
+  color: white;
+  font: 0.8rem Inconsolata, monospace;
+  text-shadow: 0 0 5px #C8C8C8;
+  input {
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    font: 0.8rem Inconsolata, monospace;
+    text-shadow: 0 0 5px #C8C8C8;
+    padding: 0;
+    flex: 1 0 auto;
+    margin: 0 8px;
+  }
+  pre {
+    margin: 0 8px 0 0;
+    word-wrap: break-word;
+    &::selection {
+      background: #0080FF;
+      text-shadow: none;
+    }
+  }
+  form {
+    display: flex;
+    flex-direction: row;
+    span {
+      &::selection {
+        background: #0080FF;
+        text-shadow: none;
+      }
+  }
+  }
+}

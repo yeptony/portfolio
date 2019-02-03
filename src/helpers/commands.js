@@ -26,7 +26,11 @@ const commands = {
     <br key={uniqid()} />,
     'projects: see all my projects',
     <br key={uniqid()} />,
-    'clear: clear the console',
+    'skills: see my skills',
+    <br key={uniqid()} />,
+    'hireme: if you want to hire me',
+    <br key={uniqid()} />,
+    'clear: clear the console'
   ],
   whoami: ['Let me think...try again'],
   aboutme: [
@@ -54,6 +58,15 @@ const commands = {
     <a href="https://codepen.io/yeptony/full/xmQYVG" target="_blank" rel="noreferrer noopener" key={uniqid()}>
       See more
     </a>
+  ],
+  skills: [
+    'reactjs',
+    <br key={uniqid()} />,
+    'HTML5',
+    <br key={uniqid()} />,
+    'CSS3',
+    <br key={uniqid()} />,
+    'webpack'
   ]
 };
 
